@@ -1,5 +1,5 @@
 
-/* Gerais */
+/* gerais */
 * {
     font-family: Helvetica;
     text-decoration: none; /* tirando o sublinhado dos links */
@@ -11,6 +11,8 @@
 a { 
     color: inherit; /* links herdam cor dos pais */
 } 
+
+
 
 /* header */
 header {
@@ -51,7 +53,7 @@ header {
 
 /* main */
 
-/*  */
+/* 1 */
 .item1 {
     background-color: rgb(103, 103, 103);
     display: flex;
@@ -66,9 +68,8 @@ header {
     margin-bottom: 150px;
     margin-left: 300px;
     margin-right: 300px;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.2;
-
 }
 
 .subtitle-item1 {
@@ -95,7 +96,7 @@ header {
 }
 
 
-/*  */
+/* 2 */
 .item2 {
     display: flex;
     flex-direction: column;
@@ -134,7 +135,7 @@ header {
     color: rgb(103, 103, 103);
 }
 
-.img-col {
+.col-img {
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -143,7 +144,7 @@ header {
 
 
 
-/*  */
+/* 3 */
 .item3-title {
     text-align: center;
     font-size: 30px;
@@ -174,8 +175,7 @@ header {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
-  }
-  
+}
 
   .bullets {
     height: 16px;
@@ -186,11 +186,11 @@ header {
     cursor: pointer;
     border: none;
     
-  }
+}
 
   .bullets:hover {
     background-color: rgb(202, 201, 201);
-  }
+}
 
 
 
@@ -208,12 +208,11 @@ footer {
     justify-content: space-around;
     padding-right: 300px;
     padding-left: 300px;
-    }
+}
 
 li {
     list-style-type: none;
-    }
-
+}
 
 .footer-copyright {
     margin-top: 50px;
