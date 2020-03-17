@@ -2,7 +2,7 @@
 
 // menu dropdown
 function dropdownFunction() {
-    document.getElementsByClassName("dropdown-content").classList.toggle("show");
+    document.querySelector(".dropdown-content").classList.toggle("show");
   }
 
 

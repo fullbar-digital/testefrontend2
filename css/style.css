@@ -5,7 +5,7 @@
     text-decoration: none; /* tirando o sublinhado dos links */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  
 }
 
 a { 
@@ -16,13 +16,11 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 7px;
     align-items: center;
     padding-right: 350px;
     padding-left: 300px;
     color:rgb(103, 103, 103);
 }
-
 .drop-btn {
     cursor: pointer;
     color: rgb(103, 103, 103);
@@ -31,55 +29,54 @@ header {
     font-size: 17px;
     background-color: white;
     padding-right: 15px;
-  }
-
-
+}
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
     padding: 15px;
     min-width: 90px;
-  }
-
+}
 .dropdown-content a {
     padding: 12px;
     display: block;
-  }
+}
   .dropdown-content a:hover {
     background-color: rgb(202, 201, 201);
-  }
-
-  
+}
   .show {
       display:block;
 }
 
 
 /* main */
+
+/*  */
 .item1 {
     background-color: rgb(103, 103, 103);
     display: flex;
-    color: white;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+    color: white;
 }
 
 .title-item1 {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
     font-size: 25px;
-    line-height: 1.5;
+    line-height: 1.2;
+
 }
 
 .subtitle-item1 {
-    line-height: 1.5;
     padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
     font-size: 14px;
+    line-height: 1.5;
 }
 
 .button-item1 {
@@ -95,52 +92,46 @@ header {
 
 .button-item1:hover {
     background-color: rgb(202, 201, 201);
-  }
+}
 
+
+/*  */
 .item2 {
     display: flex;
     flex-direction: column;
-    padding-top: 100px; 
-    padding-bottom: 100px;
+    padding: 80px;
+    align-items: center;
     
 }
-.item-title {
-    display: flex;
-    justify-content: center;
+.item2-title {
     font-size: 30px;
     color: rgb(103, 103, 103)
-    
 }
 
 .item2-colunas {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    margin-bottom: 10px;
     margin-right: 250px;
     margin-left: 250px;
     padding-left: 150px;
     padding-right: 150px;
  }
 
-
-
 .col-title{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px;
     width: 135px;
     color: rgb(103, 103, 103);
-
 }
 
-
 .col-text {
-    color: rgb(103, 103, 103);
     font-size: 15px;
     padding-right: 10px;
     padding-left: 10px;
+    color: rgb(103, 103, 103);
 }
 
 .img-col {
@@ -150,36 +141,42 @@ header {
 }
 
 
-.slides {
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 250px;
-    margin-left: 250px;
-    padding-left: 200px;
-    padding-right: 200px;
+
+
+/*  */
+.item3-title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(103, 103, 103);
 }
 
+.slides-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+ 
 .slide-img {
     width: 280px;
 
-    
 }
 
 .slide-text {
-    padding-left: 20px;
+    padding: 15px;
+    
 }
 
-/* 
-mudar o nome da classe */
   .bullets-container { 
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
   }
   
-/*   
-Mudar o nome das classes */
+
   .bullets {
     height: 16px;
     width: 16px;
@@ -200,17 +197,15 @@ Mudar o nome das classes */
 /* Footer */
 
 footer {
-    
     background-color: rgb(103, 103, 103);
     color: white;
-    padding: 100px;
+    padding: 50px;
 
 }
 
 .footer-menu {
     display: flex;
     justify-content: space-around;
-
     padding-right: 300px;
     padding-left: 300px;
     }
