@@ -2,14 +2,14 @@
 /* gerais */
 * {
     font-family: Helvetica;
-    text-decoration: none; /* tirando o sublinhado dos links */
+    text-decoration: none;
     margin: 0;
     padding: 0;
   
 }
 
 a { 
-    color: inherit; /* links herdam cor dos pais */
+    color: inherit;
 } 
 
 
@@ -224,7 +224,7 @@ li {
 
 hr {
     margin-bottom: 20px;
-    width: 20cm; /*lembrar de alterar tamanho para pegar o tamanho do elemento de cima */
+    width: 20cm;
 }
 
 .footer-img-menu {
