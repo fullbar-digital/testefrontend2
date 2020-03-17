@@ -163,21 +163,22 @@ header {
  
 .slide-img {
     width: 280px;
-
+    height: 280px;
+    object-fit: fill;
 }
-
 .slide-text {
     padding: 15px;
-    
+    width: 480px;
+    height: 280px;
 }
 
-  .bullets-container { 
+.bullets-container { 
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-  .bullets {
+.bullets {
     height: 16px;
     width: 16px;
     background-color: #bbb;
@@ -188,7 +189,7 @@ header {
     
 }
 
-  .bullets:hover {
+.bullets:hover {
     background-color: rgb(202, 201, 201);
 }
 
