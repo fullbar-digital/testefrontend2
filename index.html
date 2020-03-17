@@ -13,10 +13,19 @@
     <header>
         <h1>LOGO</h1>
         <nav>
-            <a class="link_header" href="">MENU1</a>
-            <a class="link_header" href="">MENU2</a>
-            <a class="link_header" href="">MENU3</a>
-            <a class="link_header" href="">MENU4</a>
+            <div class="dropdown">
+                <button class="drop_btn" onclick="dropdownFunction()">DROPDOWN</button>
+                <div class="dropdown-content">
+                    <a href="" target="_blank">MENU1</a>
+                    <a href="" target="_blank">MENU2</a>
+                    <a href="" target="_blank">MENU3</a>
+                    <a href="" target="_blank">MENU4</a>
+                </div>
+                <a href="" target="_blank">MENU2</a>
+                <a href="" target="_blank">MENU3</a>
+                <a href="" target="_blank">MENU4</a>
+            </div>
+
         </nav>
     </header>
 
@@ -34,8 +43,8 @@
 
                 </div>
                 <div class="button">
-                    <button type="button">BOTAO 01</button>
-                    <button type="button">BOTAO 02</button>
+                    <button class="button_item1" type="button">BOTAO 01</button>
+                    <button class="button_item1" type="button">BOTAO 02</button>
                 </div>
 
             </div>
@@ -233,6 +242,7 @@
     </footer>
 
 
-<script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>

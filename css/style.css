@@ -23,10 +23,48 @@ header {
     color:rgb(103, 103, 103);
 }
 
-.link_header {
-   margin-left: 15px;
-   cursor: pointer;
+.drop_btn {
+    cursor: pointer;
+    color: rgb(103, 103, 103);
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: white;
+    padding-right: 15px;
+  }
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    min-width: 90px;
+  }
+
+.dropdown-content a {
+    padding: 12px;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: rgb(202, 201, 201);
+  }
+
+  
+  .show {
+      display:block;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* main */
@@ -55,7 +93,7 @@ header {
     font-size: 14px;
 }
 
-button {
+.button_item1 {
     cursor: pointer;
     border-radius: 50px;
     color: rgb(103, 103, 103);
@@ -66,7 +104,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.button_item1:hover {
     background-color: rgb(202, 201, 201);
   }
 
