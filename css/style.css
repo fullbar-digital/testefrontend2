@@ -103,12 +103,11 @@ header {
     padding-top: 100px; 
     padding-bottom: 100px;
     
-
 }
 .item-title {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(103, 103, 103)
     
 }
@@ -117,11 +116,11 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-right: 250px;
     margin-left: 250px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
  }
 
 
@@ -130,7 +129,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 8px;
     width: 135px;
     color: rgb(103, 103, 103);
 
@@ -139,9 +138,9 @@ header {
 
 .col-text {
     color: rgb(103, 103, 103);
-    font-size: 12px;
-    padding-right: 7px;
-    padding-left: 7px;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .img-col {
@@ -151,7 +150,7 @@ header {
 }
 
 
-.slide-content {
+.slides {
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -171,15 +170,16 @@ header {
     padding-left: 20px;
 }
 
-
-
-  .bullets {
+/* 
+mudar o nome da classe */
+  .bullets-container { 
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
   }
   
-
+/*   
+Mudar o nome das classes */
   .bullets {
     height: 16px;
     width: 16px;
@@ -187,11 +187,11 @@ header {
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
-    background-color: yellow;
+    border: none;
     
   }
 
-  .slides:hover {
+  .bullets:hover {
     background-color: rgb(202, 201, 201);
   }
 
